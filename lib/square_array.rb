@@ -3,6 +3,7 @@ def square_array(array)
   array_squared = []
   while index < array.length
     array_squared.push(array[index] * array[index])
+    index +=1
   end
   array_squared
 end
